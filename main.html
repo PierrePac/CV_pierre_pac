@@ -1,33 +1,178 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap & font awesome -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
-    
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
+
+
     <link rel="stylesheet" href="style.css">
     <title>CV Pierre Pac</title>
 </head>
-<body class="col col-lg-9 mx-auto pt-0">
-    <div class="position-relative row w-100 p-0 m-0">
-        <div class="col-lg-12 p-0" id="bandeau">
-            <img class="img-fluid" src="media/bandeau.png" alt="image_bandeau">
+
+<body class="col col-lg-9 mx-auto pt-0" id="body">
+    <div class='position-relative row w-100 p-0 m-0' id="header">
+        <div class='col-lg-12 p-0' id='bandeau'>
+            <img class='img-fluid' src='media/bandeau.png' alt='image_bandeau'>
         </div>
-        <div class="position-absolute col-lg-4 profilPic">
-            <img class="profil img-fluid border border-white rounded-circle mx-auto d-block" src="media/profil_pic.png" alt="photo_profil">
+        <div class='position-absolute col-lg-4 w-25' id='profilPic'>
+            <img class='img-fluid border border-white rounded-circle' src='media/profil_pic.png' alt='photo_profil'>
         </div>
     </div>
-    <div class="contun container-fluid w-100 p-0 border">
+    <div class="container-fluid row w-100 p-0 m-0">
+        <div class="col-lg-4 px-3" id="perso">
+            <div class="my-2">
+                <h2 class="text-center">COORDONNEES</h2>
+                <div class="list-group">
+                    <a href="tel:+33608112179" class="list-group-item list-group-item-action">
+                        <i class="fa-solid fa-phone mx-2"></i>
+                        06.08.11.21.79
+                    </a>
+                    <a href="mailto:pac.pierre@gmail.com" class="list-group-item list-group-item-action">
+                        <i class="fa-solid fa-envelope mx-2"></i>
+                        pac.pierre@gmail.com</a>
+                    <li class="list-group-item">
+                        <i class="fa-solid fa-car mx-2"></i>
+                        Titulaire du permis B
+                    </li>
+                    <a href="www.linkedin.com/in/pierre-pac" class="list-group-item list-group-item-action">
+                        <i class="fa-brands fa-linkedin mx-2"></i>
+                        /pierre-pac</a>
+                    <a href="https://github.com/PierrePac" class="list-group-item list-group-item-action">
+                        <i class="fa-brands fa-github mx-2"></i>
+                        PierrePac</a>
+                    <li class="list-group-item">
+                        <i class="fa-solid fa-house-chimney mx-2"></i>
+                        7 Rue Robert Bordeux<br /><span class="mx-5">80580 Pont-Rémy</span>
+                    </li>
+                    <hr>
+                </div>
+            </div>
+            <div class="my-2">
+                <h2 class="text-center mt-3 mb-2">SYNTHÈSE DU PROFIL</h2>
+                <div class="mx-2">
+                    <span class="profil">Mon sens de l’organisation, ma rigueur et mon
+                        perfectionnisme m’ont amené vers des métiers où
+                        l’investissement professionnel était important.
+                        Le monde du numérique et plus particulièrement le
+                        développement d'application, sont des domaines qui
+                        m’attirent.
+                        C’est pourquoi aujourd’hui je suis déterminé à en faire
+                        mon métier avec autant de sérieux que ce que j’ai
+                        réalisé jusqu’à maintenant.</span>hat
+                </div>
+                <hr>
+            </div>
+            <div class="my-2">
+                <h2 class="text-center mt-3 mb-2">COMPÉTENCES ET EXPERTISES :</h2>
+                <div class="mx-2 my-2 pb-3 d-flex flex-wrap justify-content-center">
+                    <div class="mx-2 my-2 logo"><img src="media/html.png" alt="html5" class="img-fluid"></div>
+                    <div class="mx-2 my-2 logo"><img src="media/css.png" alt="css3" class="img-fluid "></div>
+                    <div class="mx-2 my-2 logo"><img src="media/bootstrap.png" alt="bootstrap" class="img-fluid "></div>
+                    <div class="mx-2 my-2 logo"><img src="media/js.png" alt="javascript" class="img-fluid "></div>
+                    <div class="mx-2 my-2 logo"><img src="media/react.png" alt="react" class="img-fluid "></div>
+                    <div class="mx-2 my-2 logo"><img src="media/jquery.png" alt="jquery" class="img-fluid "></div>
+                    <div class="mx-2 my-2 logo"><img src="media/php.png" alt="php" class="img-fluid "></div>
+                    <div class="mx-2 my-2 logo"><img src="media/mysql.png" alt="mysql" class="img-fluid "></div>
+                    <div class="mx-2 my-2 logo"><img src="media/sql.png" alt="sql" class="img-fluid "></div>
+                    <div class="mx-2 my-2 logo"><img src="media/symfony.png" alt="symfony" class="img-fluid "></div>
+                </div>
+                <hr>
+                <p>Programmation orienté objet</p>
+                <p>Model View Contrler</p>
+                <p>Wordpress</p>
+                <p>Anglais: Courant</p>
+            </div>
+        </div>
+        <div class="col-lg-8 p-0 pt-5 px-2 " id="xp">
+            <div class="mt-2">
+                <h2 class="text-center">FORMATION PROFESSIONNELLE</h2>
+                <div>
+                    <h5 class="font-weight-bold mb-2 mt-3">CONCEPTEUR DÉVELOPPEUR D'APPLICATION</h5>
+                    <p class="font-italic">Centre AFPA - Amiens fév 2023 - oct 2023</p>
+                    <span>Formation intensive de 8 mois pour présenter le titre professionnel de niveau 6 (bac
+                        +3/+4) de concepteur développeur d’applications.
+                        Concevoir et développer des composants d'interface utilisateur. Concevoir et
+                        développer la persistance des données- Concevoir et développer une application
+                        multicouche répartie. Concevoir des applications en intégrant les recommandations
+                        de sécurité.</span>
+                    <hr>
+                </div>
+                <div>
+                    <h5 class="font-weight-bold mb-2 mt-3">DÉVELOPPEUR WEB & WEB MOBILE</h5>
+                    <p class="font-italic">Centre AFPA - Rochefort nov 2021 - aout 2022</p>
+                    <span>Formation intensive de 8 mois de développeur full-stack
+                        Titre professionnel de niveau 5 (BTS/DUT) de développeur web et web mobile.
+                        Réalisation de projets en: HTML5/CSS3, Javascript, PHP, MySql, JQuery, Bootstrap,
+                        PHP, Reac, NodeJs et SQL.</span>
+                    <hr>
+                </div>
+                <div>
+                    <h5 class="font-weight-bold mb-2 mt-3">SPORT EVENT MANAGEMENT</h5>
+                    <p class="font-italic">Deakin university, Melbourne, Australie 2009 - 2011</p>
+                    <span>Master dans l'organisation d'événement sportif d'envergure local ou international, d'un
+                        point de vue logistique, promotionnel et management de personnel.</span>
+                    <hr>
+                </div>
+            </div>
+            <div class="mt-2">
+                <h2 class="text-center">EXPÉRIENCE PROFESSIONNELLE</h2>
+                <div>
+                    <h5 class="font-weight-bold mb-2 mt-3">STAGE DE FORMATION DÉVELOPPEUR WEB</h5>
+                    <p class="font-italic">Etoile Secours | 25/05/2022 - 01/07/2022</p>
+                    <span>Création d'un CMS simplifié pour des sociétés d’ambulances à partir duquel elles
+                        peuvent choisir parmi plusieurs templates proposés et l'implémenter très rapidement.
+                        Création d'une interface de gestion et d'administration afin que chaque sociétés puisse
+                        gérer leurs clients, la prise de rendez-vous, les offres d’emploi ainsi que leur site internet.
+                        Conception d’une base de données à partir du cahier des charges et des besoins client.
+                        Projet réalisé en utilisant PHP, MySQL pour le back et HTML, CSS, Javascript et
+                        Bootstrap pour le front.</span>
+                    <hr>
+                </div>
+                <div>
+                    <h5 class="font-weight-bold mb-2 mt-3">CHEF DE GROUPE INFANTERIE</h5>
+                    <p class="font-italic">Légion Etrangère | 2013-2021</p>
+                    <span>Responsable d'un groupe de combat, j'y ai développé des qualités de leader et
+                        responsabilités dans l'accomplissement des missions.
+                        Spécialisé dans le domaine du Génie et de l'infanterie, j'ai eu la chance de rentrer au sein
+                        du Groupement commando montagne et plus particulièrement des plongeurs de combat
+                        du génie.</span>
+                    <hr>
+                </div>
+                <div class="mb-4">
+                    <h5 class="font-weight-bold mb-2 mt-3">MANAGER, MELBOURNE, AUSTRALIE</h5>
+                    <p class="font-italic">Colonial Hotel, Melbourne | 2009- 2012</p>
+                    <span>Développer le sens de l'organisation et de l'anticipation, responsable du recrutement et
+                        de l'approvisionnement de l'une des quatre salles de l'établissement.</span>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
 
     </div>
 
 
 
-    <!-- bootstrap & font awesome -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
     <script src="script.js"></script>
 </body>
+
 </html>
